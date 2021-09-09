@@ -1,1 +1,1 @@
-
+This is a very simple project in which you can set a number of picture and by clicking on each of them, you can expect a card to expand and other cards to become smaller. This one was literally the very first project I tried to build.
