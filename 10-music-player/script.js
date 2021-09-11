@@ -94,8 +94,8 @@ function setProgress(e) {
 playBtn.addEventListener('click', () => {
   const isPlaying = musicContainer.classList.contains('play')
   // An attempt to use ternary conditionals.
-  //   (Boolean(isPlaying) === false) ? pauseSong() : playSong()
-  // })
+//     (Boolean(isPlaying) === false) ? pauseSong() : playSong()
+//   })
 
   if (isPlaying) {
     pauseSong()
