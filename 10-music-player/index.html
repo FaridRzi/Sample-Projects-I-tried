@@ -16,18 +16,24 @@
   </head>
   <body>
     <h1>Music Player</h1>
+    <!-- The music player -->
     <div class="music-container" id="music-container">
+      <!-- Music title -->
       <div class="music-info">
         <h4 id="title"></h4>
+        <!-- The progress bar -->
         <div class="progress-container" id="progress-container">
           <div class="progress" id="progress"></div>
         </div>
       </div>
+      <!-- The audio player -->
       <audio src="assets/musics/ukulele.mp3" id="audio"></audio>
 
+      <!-- The song's icon -->
       <div class="img-container">
         <img src="assets/imgs/ukulele.jpg" alt="" id="cover" />
       </div>
+      <!-- Play, pause, next, and previous buttons -->
       <div class="navigation">
         <button id="prev" class="action-btn">
           <i class="fas fa-backward"></i>
