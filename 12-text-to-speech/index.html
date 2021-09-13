@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Speech Text Reader</h1>
+      <!-- Button to open the text box -->
+      <button id="toggle" class="btn btn-toggle">Toggle Text Box</button>
+      <!-- Text box -->
+      <div id="text-box" class="text-box">
+        <!-- Close Button -->
+        <div class="close" id="close">X</div>
+        <h3>Choose Voice</h3>
+        <!-- Select Voice -->
+        <select id="voices"></select>
+        <!-- Text Area -->
+        <textarea id="text" placeholder="Enter the text to read"></textarea>
+        <!-- Button to read the text -->
+        <button class="btn" id="read">Read Text</button>
+      </div>
+      <!-- Output -->
+      <main></main>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
